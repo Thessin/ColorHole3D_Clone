@@ -13,11 +13,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - LevelGround
+  - Hole
+  - Passable
+  - Unpassable
+  - FakeGround
   - 
   - 
   - 
