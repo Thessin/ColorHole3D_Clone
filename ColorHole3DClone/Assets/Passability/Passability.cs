@@ -14,6 +14,15 @@ public class Passability : MonoBehaviour
         if (LayerMask.LayerToName(other.gameObject.layer) == LayerNames.Hole)
             gameObject.layer = LayerMask.NameToLayer(LayerNames.Passable);
 
+        if (LayerMask.LayerToName(other.gameObject.layer) == LayerNames.BlockCatcher)
+        {
+            // TODO: Add points to ScoreSystem.
+
+            Debug.LogWarning("ADD POINTS, OBJECT " + gameObject.name + " IS CAUGHT!");
+
+            Destroy(gameObject);
+        }
+
     }
 
     private void OnTriggerExit(Collider other)
