@@ -26,7 +26,7 @@ public class LevelSystem : Singleton<LevelSystem>
         }
         else
         {
-            // TODO: Move camera
+            CameraSystem.Instance.MoveCameraToNextStage();
 
             OnMovingToNextStageStart?.Invoke();
         }

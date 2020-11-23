@@ -13,7 +13,7 @@ public class PointSystem : Singleton<PointSystem>
 
     private void Start()
     {
-        SetPointsNeededToPassLevel();
+        SetPointsNeededToPassStage();
     }
 
     public void AddPoints(int pointToAdd)
@@ -27,13 +27,13 @@ public class PointSystem : Singleton<PointSystem>
             // TODO: Move to next stage!
             LevelSystem.Instance.MoveToNextStage();
 
-            SetPointsNeededToPassLevel();
+            SetPointsNeededToPassStage();
 
             Debug.Log("MOVE TO NEXT STAGE!");
         }
     }
 
-    private void SetPointsNeededToPassLevel()
+    private void SetPointsNeededToPassStage()
     {
         pointsNeededCache = scriptableObject.GetPointsNeeded(LevelSystem.Instance.GetCurrentLevelNumber(), LevelSystem.Instance.GetCurrentStageNumber());
     }
