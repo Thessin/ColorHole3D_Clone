@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using DG.Tweening;
 
 public class CameraSystem : Singleton<CameraSystem>
 {
     private Camera currentCam;
     private Vector3 secondStagePos;
+    private float cameraMoveAnimDuration = 3.0f;
 
     private void OnEnable()
     {
@@ -33,7 +35,7 @@ public class CameraSystem : Singleton<CameraSystem>
         Debug.LogError(secondStagePos);
         if (currentCam && secondStagePos != null)
         {
-            currentCam.transform.position = secondStagePos;
+            currentCam.transform.DOMove(secondStagePos, cameraMoveAnimDuration);
         }
     }
 }
