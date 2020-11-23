@@ -245,6 +245,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &16325939
 GameObject:
   m_ObjectHideFlags: 0
@@ -369,6 +372,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &40193719
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,7 +498,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &51473686
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,6 +626,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &60329264
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,7 +752,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &67959783
 GameObject:
   m_ObjectHideFlags: 0
@@ -864,7 +879,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &75072536
 GameObject:
   m_ObjectHideFlags: 0
@@ -989,6 +1007,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &76913678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1113,6 +1134,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &77581096
 GameObject:
   m_ObjectHideFlags: 0
@@ -1236,7 +1260,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &82773400
 GameObject:
   m_ObjectHideFlags: 0
@@ -1360,7 +1387,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &102514425
 GameObject:
   m_ObjectHideFlags: 0
@@ -1485,6 +1515,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &112814281
 GameObject:
   m_ObjectHideFlags: 0
@@ -1609,6 +1642,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &122529468
 GameObject:
   m_ObjectHideFlags: 0
@@ -1733,6 +1769,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &130997995
 GameObject:
   m_ObjectHideFlags: 0
@@ -1857,6 +1896,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &142699011
 GameObject:
   m_ObjectHideFlags: 0
@@ -1981,6 +2023,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &146179574
 GameObject:
   m_ObjectHideFlags: 0
@@ -2104,7 +2149,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &167661822
 GameObject:
   m_ObjectHideFlags: 0
@@ -2228,7 +2276,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &180160958
 GameObject:
   m_ObjectHideFlags: 0
@@ -2352,7 +2403,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &186104011
 GameObject:
   m_ObjectHideFlags: 0
@@ -2477,6 +2531,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &202416055
 GameObject:
   m_ObjectHideFlags: 0
@@ -2600,7 +2657,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &213564566
 GameObject:
   m_ObjectHideFlags: 0
@@ -2725,6 +2785,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &215040201
 GameObject:
   m_ObjectHideFlags: 0
@@ -2849,6 +2912,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &223371155
 GameObject:
   m_ObjectHideFlags: 0
@@ -2972,7 +3038,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &231137674
 GameObject:
   m_ObjectHideFlags: 0
@@ -3097,6 +3166,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &234372156
 GameObject:
   m_ObjectHideFlags: 0
@@ -3221,6 +3293,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &236885680
 GameObject:
   m_ObjectHideFlags: 0
@@ -3345,6 +3420,53 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
+--- !u!1 &238162542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 238162544}
+  - component: {fileID: 238162543}
+  m_Layer: 0
+  m_Name: PointSystemGO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &238162543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238162542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 789b6c5cc40f0b1439509debe102ac7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scriptableObject: {fileID: 11400000, guid: b527f5d3a7dfaec48b27ed35a827c0a0, type: 2}
+--- !u!4 &238162544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238162542}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &242192697
 GameObject:
   m_ObjectHideFlags: 0
@@ -3468,7 +3590,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &243899097
 GameObject:
   m_ObjectHideFlags: 0
@@ -3676,6 +3801,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &249915061
 GameObject:
   m_ObjectHideFlags: 0
@@ -3799,7 +3927,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &250208181
 GameObject:
   m_ObjectHideFlags: 0
@@ -3924,6 +4055,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &260999036
 GameObject:
   m_ObjectHideFlags: 0
@@ -4047,7 +4181,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &275551919
 GameObject:
   m_ObjectHideFlags: 0
@@ -4171,7 +4308,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &328303215
 GameObject:
   m_ObjectHideFlags: 0
@@ -4296,6 +4436,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &338170585
 GameObject:
   m_ObjectHideFlags: 0
@@ -4419,7 +4562,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &347276049
 GameObject:
   m_ObjectHideFlags: 0
@@ -4543,7 +4689,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &363118459
 GameObject:
   m_ObjectHideFlags: 0
@@ -4761,6 +4910,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &386344029
 GameObject:
   m_ObjectHideFlags: 0
@@ -4885,6 +5037,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &400347256
 GameObject:
   m_ObjectHideFlags: 0
@@ -5009,6 +5164,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &419221343
 GameObject:
   m_ObjectHideFlags: 0
@@ -5133,6 +5291,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &425575383
 GameObject:
   m_ObjectHideFlags: 0
@@ -5256,7 +5417,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &432373460
 GameObject:
   m_ObjectHideFlags: 0
@@ -5380,7 +5544,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &432482183
 GameObject:
   m_ObjectHideFlags: 0
@@ -5505,6 +5672,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &448139498
 GameObject:
   m_ObjectHideFlags: 0
@@ -5629,6 +5799,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &456718133
 GameObject:
   m_ObjectHideFlags: 0
@@ -5753,6 +5926,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &457111912
 GameObject:
   m_ObjectHideFlags: 0
@@ -5877,6 +6053,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &469808757
 GameObject:
   m_ObjectHideFlags: 0
@@ -6001,6 +6180,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &484120507
 GameObject:
   m_ObjectHideFlags: 0
@@ -6124,7 +6306,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &516686284
 GameObject:
   m_ObjectHideFlags: 0
@@ -6249,6 +6434,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &517755812
 GameObject:
   m_ObjectHideFlags: 0
@@ -6583,6 +6771,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &548249716
 GameObject:
   m_ObjectHideFlags: 0
@@ -6706,7 +6897,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &555943602
 GameObject:
   m_ObjectHideFlags: 0
@@ -6830,7 +7024,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &574192622
 GameObject:
   m_ObjectHideFlags: 0
@@ -6955,6 +7152,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &589750807
 GameObject:
   m_ObjectHideFlags: 0
@@ -7078,7 +7278,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &596653426
 GameObject:
   m_ObjectHideFlags: 0
@@ -7203,6 +7406,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &627321806
 GameObject:
   m_ObjectHideFlags: 0
@@ -7327,6 +7533,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &657851501
 GameObject:
   m_ObjectHideFlags: 0
@@ -7450,7 +7659,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &663698369
 GameObject:
   m_ObjectHideFlags: 0
@@ -7575,6 +7787,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &665356200
 GameObject:
   m_ObjectHideFlags: 0
@@ -7699,6 +7914,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &667474246
 GameObject:
   m_ObjectHideFlags: 0
@@ -7823,6 +8041,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &676694964
 GameObject:
   m_ObjectHideFlags: 0
@@ -7947,6 +8168,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &678561334
 GameObject:
   m_ObjectHideFlags: 0
@@ -8071,6 +8295,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &682249891
 GameObject:
   m_ObjectHideFlags: 0
@@ -8194,7 +8421,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &695469213
 GameObject:
   m_ObjectHideFlags: 0
@@ -8318,7 +8548,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &733165898
 GameObject:
   m_ObjectHideFlags: 0
@@ -8442,7 +8675,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &756923400
 GameObject:
   m_ObjectHideFlags: 0
@@ -8566,7 +8802,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
+--- !u!1 &757555359
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 757555361}
+  - component: {fileID: 757555360}
+  m_Layer: 0
+  m_Name: LevelSystemGO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &757555360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757555359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b10a1b2b8e09de94192caa95f6aa3483, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnMovingToNextStageStart:
+    m_PersistentCalls:
+      m_Calls: []
+  OnMovingToNextStageEnd:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &757555361
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757555359}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &757654592
 GameObject:
   m_ObjectHideFlags: 0
@@ -8691,6 +8979,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &778389062
 GameObject:
   m_ObjectHideFlags: 0
@@ -8815,6 +9106,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &778703228
 GameObject:
   m_ObjectHideFlags: 0
@@ -8938,7 +9232,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &791182577
 GameObject:
   m_ObjectHideFlags: 0
@@ -9062,7 +9359,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &797399630
 GameObject:
   m_ObjectHideFlags: 0
@@ -9187,6 +9487,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &801526910
 GameObject:
   m_ObjectHideFlags: 0
@@ -9311,6 +9614,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &803546488
 GameObject:
   m_ObjectHideFlags: 0
@@ -9434,7 +9740,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &804799439
 GameObject:
   m_ObjectHideFlags: 0
@@ -9559,6 +9868,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &811339813
 GameObject:
   m_ObjectHideFlags: 0
@@ -9682,7 +9994,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &816720916
 GameObject:
   m_ObjectHideFlags: 0
@@ -9806,7 +10121,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &869436641
 GameObject:
   m_ObjectHideFlags: 0
@@ -9930,7 +10248,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &882785350
 GameObject:
   m_ObjectHideFlags: 0
@@ -10055,6 +10376,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &888489415
 GameObject:
   m_ObjectHideFlags: 0
@@ -10179,6 +10503,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &891894263
 GameObject:
   m_ObjectHideFlags: 0
@@ -10303,6 +10630,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &897095094
 GameObject:
   m_ObjectHideFlags: 0
@@ -10427,6 +10757,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &898233582
 GameObject:
   m_ObjectHideFlags: 0
@@ -10550,7 +10883,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &910495527
 GameObject:
   m_ObjectHideFlags: 0
@@ -10674,7 +11010,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &923303465
 GameObject:
   m_ObjectHideFlags: 0
@@ -10798,7 +11137,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &932898489
 GameObject:
   m_ObjectHideFlags: 0
@@ -10923,6 +11265,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &937320958
 GameObject:
   m_ObjectHideFlags: 0
@@ -11047,6 +11392,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &945580248
 GameObject:
   m_ObjectHideFlags: 0
@@ -11171,6 +11519,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &947289798
 GameObject:
   m_ObjectHideFlags: 0
@@ -11295,6 +11646,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &961010282
 GameObject:
   m_ObjectHideFlags: 0
@@ -11419,6 +11773,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &961033805
 GameObject:
   m_ObjectHideFlags: 0
@@ -11542,7 +11899,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &965078619
 GameObject:
   m_ObjectHideFlags: 0
@@ -11666,7 +12026,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &965297448
 GameObject:
   m_ObjectHideFlags: 0
@@ -11791,6 +12154,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &986982573
 GameObject:
   m_ObjectHideFlags: 0
@@ -11915,6 +12281,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &987402020
 GameObject:
   m_ObjectHideFlags: 0
@@ -12039,6 +12408,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &998238120
 GameObject:
   m_ObjectHideFlags: 0
@@ -12163,6 +12535,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1002040989
 GameObject:
   m_ObjectHideFlags: 0
@@ -12287,6 +12662,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1016055763
 GameObject:
   m_ObjectHideFlags: 0
@@ -12410,7 +12788,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1019413061
 GameObject:
   m_ObjectHideFlags: 0
@@ -12535,6 +12916,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1029443648
 GameObject:
   m_ObjectHideFlags: 0
@@ -12659,6 +13043,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1038143774
 GameObject:
   m_ObjectHideFlags: 0
@@ -12783,6 +13170,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1046097969
 GameObject:
   m_ObjectHideFlags: 0
@@ -12906,7 +13296,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1047513691
 GameObject:
   m_ObjectHideFlags: 0
@@ -13030,7 +13423,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1078334797
 GameObject:
   m_ObjectHideFlags: 0
@@ -13154,7 +13550,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1092010283
 GameObject:
   m_ObjectHideFlags: 0
@@ -13279,6 +13678,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1098001957
 GameObject:
   m_ObjectHideFlags: 0
@@ -13403,6 +13805,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1107534623
 GameObject:
   m_ObjectHideFlags: 0
@@ -13526,7 +13931,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1110222633
 GameObject:
   m_ObjectHideFlags: 0
@@ -13651,6 +14059,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1121768574
 GameObject:
   m_ObjectHideFlags: 0
@@ -13774,7 +14185,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1123387289
 GameObject:
   m_ObjectHideFlags: 0
@@ -13899,6 +14313,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1128416457
 GameObject:
   m_ObjectHideFlags: 0
@@ -14023,6 +14440,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1153785667
 GameObject:
   m_ObjectHideFlags: 0
@@ -14147,6 +14567,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1163276292
 GameObject:
   m_ObjectHideFlags: 0
@@ -14271,6 +14694,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1165908861
 GameObject:
   m_ObjectHideFlags: 0
@@ -14395,6 +14821,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1170329582
 GameObject:
   m_ObjectHideFlags: 0
@@ -14518,7 +14947,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1173552731
 GameObject:
   m_ObjectHideFlags: 0
@@ -14737,6 +15169,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1221445116
 GameObject:
   m_ObjectHideFlags: 0
@@ -14860,7 +15295,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1223955665
 GameObject:
   m_ObjectHideFlags: 0
@@ -15078,6 +15516,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1243008205
 GameObject:
   m_ObjectHideFlags: 0
@@ -15202,6 +15643,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1266474638
 GameObject:
   m_ObjectHideFlags: 0
@@ -15325,7 +15769,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1281059483
 GameObject:
   m_ObjectHideFlags: 0
@@ -15449,7 +15896,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1283819742
 GameObject:
   m_ObjectHideFlags: 0
@@ -15574,6 +16024,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1297085367
 GameObject:
   m_ObjectHideFlags: 0
@@ -15698,6 +16151,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1303692131
 GameObject:
   m_ObjectHideFlags: 0
@@ -15821,7 +16277,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1319638091
 GameObject:
   m_ObjectHideFlags: 0
@@ -15946,6 +16405,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1343197066
 GameObject:
   m_ObjectHideFlags: 0
@@ -16070,6 +16532,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1348012503
 GameObject:
   m_ObjectHideFlags: 0
@@ -16194,6 +16659,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1374424157
 GameObject:
   m_ObjectHideFlags: 0
@@ -16317,7 +16785,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1391689329
 GameObject:
   m_ObjectHideFlags: 0
@@ -16442,6 +16913,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1394512639
 GameObject:
   m_ObjectHideFlags: 0
@@ -16566,6 +17040,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1416156725
 GameObject:
   m_ObjectHideFlags: 0
@@ -16690,6 +17167,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1417258055
 GameObject:
   m_ObjectHideFlags: 0
@@ -16814,6 +17294,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1418316282
 GameObject:
   m_ObjectHideFlags: 0
@@ -16938,6 +17421,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1420885789
 GameObject:
   m_ObjectHideFlags: 0
@@ -17061,7 +17547,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1431651282
 GameObject:
   m_ObjectHideFlags: 0
@@ -17278,7 +17767,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1447884455
 GameObject:
   m_ObjectHideFlags: 0
@@ -17403,6 +17895,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1458404095
 GameObject:
   m_ObjectHideFlags: 0
@@ -17527,6 +18022,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1473778155
 GameObject:
   m_ObjectHideFlags: 0
@@ -17651,6 +18149,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1480806028
 GameObject:
   m_ObjectHideFlags: 0
@@ -17775,6 +18276,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1488795970
 GameObject:
   m_ObjectHideFlags: 0
@@ -17898,7 +18402,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1521011713
 GameObject:
   m_ObjectHideFlags: 0
@@ -18023,6 +18530,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1523827746
 GameObject:
   m_ObjectHideFlags: 0
@@ -18146,7 +18656,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1526642535
 GameObject:
   m_ObjectHideFlags: 0
@@ -18271,6 +18784,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1533243382
 GameObject:
   m_ObjectHideFlags: 0
@@ -18395,6 +18911,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1542199112
 GameObject:
   m_ObjectHideFlags: 0
@@ -18518,7 +19037,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1542321099
 GameObject:
   m_ObjectHideFlags: 0
@@ -18643,6 +19165,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1552836816
 GameObject:
   m_ObjectHideFlags: 0
@@ -18766,7 +19291,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1580934074
 GameObject:
   m_ObjectHideFlags: 0
@@ -18890,7 +19418,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1585648124
 GameObject:
   m_ObjectHideFlags: 0
@@ -19015,6 +19546,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1592142073
 GameObject:
   m_ObjectHideFlags: 0
@@ -19231,7 +19765,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1637602816
 GameObject:
   m_ObjectHideFlags: 0
@@ -19355,7 +19892,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1652906294
 GameObject:
   m_ObjectHideFlags: 0
@@ -19480,6 +20020,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1663530812
 GameObject:
   m_ObjectHideFlags: 0
@@ -19603,7 +20146,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1681885867
 GameObject:
   m_ObjectHideFlags: 0
@@ -19728,6 +20274,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1703579871
 GameObject:
   m_ObjectHideFlags: 0
@@ -19852,6 +20401,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1707843244
 GameObject:
   m_ObjectHideFlags: 0
@@ -19975,7 +20527,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1710826730
 GameObject:
   m_ObjectHideFlags: 0
@@ -20100,6 +20655,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1761911547
 GameObject:
   m_ObjectHideFlags: 0
@@ -20223,7 +20781,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1762127669
 GameObject:
   m_ObjectHideFlags: 0
@@ -20348,6 +20909,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1765629525
 GameObject:
   m_ObjectHideFlags: 0
@@ -20584,6 +21148,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1789301177
 GameObject:
   m_ObjectHideFlags: 0
@@ -20707,7 +21274,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1793755590
 GameObject:
   m_ObjectHideFlags: 0
@@ -20831,7 +21401,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1800170180
 GameObject:
   m_ObjectHideFlags: 0
@@ -20956,6 +21529,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1828821656
 GameObject:
   m_ObjectHideFlags: 0
@@ -21079,7 +21655,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1830521479
 GameObject:
   m_ObjectHideFlags: 0
@@ -21204,6 +21783,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1847358461
 GameObject:
   m_ObjectHideFlags: 0
@@ -21327,7 +21909,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1860494457
 GameObject:
   m_ObjectHideFlags: 0
@@ -21452,6 +22037,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1866862397
 GameObject:
   m_ObjectHideFlags: 0
@@ -21576,6 +22164,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1867692866
 GameObject:
   m_ObjectHideFlags: 0
@@ -21699,7 +22290,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1879976265
 GameObject:
   m_ObjectHideFlags: 0
@@ -21916,6 +22510,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1927656110
 GameObject:
   m_ObjectHideFlags: 0
@@ -22040,6 +22637,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1927860226
 GameObject:
   m_ObjectHideFlags: 0
@@ -22163,7 +22763,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1989258709
 GameObject:
   m_ObjectHideFlags: 0
@@ -22288,6 +22891,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1989632709
 GameObject:
   m_ObjectHideFlags: 0
@@ -22412,6 +23018,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1989690616
 GameObject:
   m_ObjectHideFlags: 0
@@ -22536,6 +23145,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &1992631211
 GameObject:
   m_ObjectHideFlags: 0
@@ -22766,6 +23378,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &2017848951
 GameObject:
   m_ObjectHideFlags: 0
@@ -22890,6 +23505,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &2091721710
 GameObject:
   m_ObjectHideFlags: 0
@@ -23014,6 +23632,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &2096169858
 GameObject:
   m_ObjectHideFlags: 0
@@ -23138,6 +23759,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &2100800293
 GameObject:
   m_ObjectHideFlags: 0
@@ -23261,7 +23885,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d406f41740741f84f9924ce3b53d2c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badPiece: 0
+  badPiece: 1
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &2107380216
 GameObject:
   m_ObjectHideFlags: 0
@@ -23386,6 +24013,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
 --- !u!1 &2134184066
 GameObject:
   m_ObjectHideFlags: 0
@@ -23603,3 +24233,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   badPiece: 0
+  pointToGive: 1
+  badColor: {r: 1, g: 0, b: 0, a: 1}
+  goodColor: {r: 0, g: 1, b: 0.97062707, a: 1}
