@@ -44,7 +44,7 @@ public class Passability : MonoBehaviour
         {
             if (badPiece && !movingStages)
             {
-                // TODO: GameOver!
+                GameManager.Instance.LevelLose();
             }
             else
             {

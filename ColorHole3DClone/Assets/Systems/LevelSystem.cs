@@ -26,6 +26,8 @@ public class LevelSystem : Singleton<LevelSystem>
         }
         else
         {
+            // TODO: Move the hole to middle and to its next point.
+
             CameraSystem.Instance.MoveCameraToNextStage();
 
             OnMovingToNextStageStart?.Invoke();
