@@ -24,7 +24,6 @@ public class PointSystem : Singleton<PointSystem>
 
         if (Points >= pointsNeededCache)
         {
-            // TODO: Move to next stage!
             LevelSystem.Instance.MoveToNextStage();
 
             SetPointsNeededToPassStage();
@@ -35,6 +34,20 @@ public class PointSystem : Singleton<PointSystem>
 
     private void SetPointsNeededToPassStage()
     {
-        pointsNeededCache = scriptableObject.GetPointsNeeded(LevelSystem.Instance.GetCurrentLevelNumber(), LevelSystem.Instance.GetCurrentStageNumber());
+        try
+        {
+            ResetPoints();
+
+            pointsNeededCache = scriptableObject.GetPointsNeeded(LevelSystem.Instance.GetCurrentLevelNumber(), LevelSystem.Instance.GetCurrentStageNumber());
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogError("Error caught while trying to appoint pointsNeededCache with scriptableObject with message = " + e.Message);
+        }
+    }
+
+    public void ResetPoints()
+    {
+        Points = 0;
     }
 }

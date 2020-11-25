@@ -18,7 +18,7 @@ MonoBehaviour:
     PointsNeeded: 111
   - Level: 0
     Stage: 1
-    PointsNeeded: 140
+    PointsNeeded: 111
   - Level: 1
     Stage: 0
     PointsNeeded: 140

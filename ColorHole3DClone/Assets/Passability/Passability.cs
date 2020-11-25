@@ -19,7 +19,10 @@ public class Passability : MonoBehaviour
             GetComponent<MeshRenderer>().material.color = badColor;
         else
             GetComponent<MeshRenderer>().material.color = goodColor;
+    }
 
+    private void OnEnable()
+    {
         LevelSystem.Instance.OnMovingToNextStageStart.AddListener(MovingStageStart);
         LevelSystem.Instance.OnMovingToNextStageEnd.AddListener(MovingStageEnd);
     }

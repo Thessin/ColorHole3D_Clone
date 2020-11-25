@@ -27,7 +27,7 @@ public class PointsPerLevelSO : ScriptableObject
         }
         catch (System.Exception e)
         {
-            Debug.LogError("Error occured while getting points needed for current stage with message = " + e.Message);
+            Debug.LogWarning("Error occured while getting points needed for current stage with message = " + e.Message);
         }
 
         return pointNeeded;

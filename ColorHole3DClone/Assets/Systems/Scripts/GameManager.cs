@@ -16,6 +16,8 @@ public class GameManager : Singleton<GameManager>
         if (!gameStateDetermined)
         {
             gameStateDetermined = true;
+
+
         }
     }
 
@@ -24,11 +26,13 @@ public class GameManager : Singleton<GameManager>
     /// </summary>
     public void LevelLose()
     {
-        // TODO: Show lost UI etc.
-
         if (!gameStateDetermined)
         {
             gameStateDetermined = true;
+
+            CameraSystem.Instance.ShakeCamera();
+
+            // TODO: Add Level Lost UI
         }
     }
 
@@ -38,5 +42,8 @@ public class GameManager : Singleton<GameManager>
     public void RestartGame()
     {
         gameStateDetermined = false;
+
+        LevelSystem.Instance.ResetStage();
+        PointSystem.Instance.ResetPoints();
     }
 }
