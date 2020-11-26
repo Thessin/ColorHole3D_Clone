@@ -15,19 +15,19 @@ MonoBehaviour:
   stageDatas:
   - Level: 0
     Stage: 0
-    PointsNeeded: 111
+    PointsNeeded: 99
   - Level: 0
     Stage: 1
-    PointsNeeded: 111
+    PointsNeeded: 99
   - Level: 1
     Stage: 0
-    PointsNeeded: 140
+    PointsNeeded: 99
   - Level: 1
     Stage: 1
-    PointsNeeded: 140
+    PointsNeeded: 99
   - Level: 2
     Stage: 0
-    PointsNeeded: 140
+    PointsNeeded: 99
   - Level: 2
     Stage: 1
-    PointsNeeded: 140
+    PointsNeeded: 99

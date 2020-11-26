@@ -1,10 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
+using UnityEngine.Events;
 
 public class GameManager : Singleton<GameManager>
 {
     private bool gameStateDetermined = false;
+
+    private float levelLoadDelay = 2.0f;
+
+    public UnityEvent OnPauseGame = new UnityEvent();
+    public UnityEvent OnResumeGame = new UnityEvent();
 
     /// <summary>
     /// Things to do when the current level is won.
@@ -17,7 +24,19 @@ public class GameManager : Singleton<GameManager>
         {
             gameStateDetermined = true;
 
+            UISystem.Instance.ShowUI(UITypes.GameWonUI);
 
+            OnPauseGame?.Invoke();
+
+            Sequence seq = DOTween.Sequence();
+
+            seq.InsertCallback(levelLoadDelay, () => {
+                LevelSystem.Instance.MoveToNextLevel();
+                gameStateDetermined = false;
+                OnResumeGame?.Invoke();
+            });
+
+            seq.Play();
         }
     }
 
@@ -32,7 +51,9 @@ public class GameManager : Singleton<GameManager>
 
             CameraSystem.Instance.ShakeCamera();
 
-            // TODO: Add Level Lost UI
+            UISystem.Instance.ShowUI(UITypes.GameOverUI);
+
+            OnPauseGame?.Invoke();
         }
     }
 
@@ -42,8 +63,11 @@ public class GameManager : Singleton<GameManager>
     public void RestartGame()
     {
         gameStateDetermined = false;
+        OnResumeGame?.Invoke();
 
-        LevelSystem.Instance.ResetStage();
+        LevelSystem.Instance.RestartLevel();
         PointSystem.Instance.ResetPoints();
+
+        Debug.LogError("ON RESTART GAME");
     }
 }

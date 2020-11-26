@@ -34,13 +34,16 @@ public class LevelSystem : Singleton<LevelSystem>
         SceneManager.sceneLoaded -= On_SceneLoaded;
     }
 
+    /// <summary>
+    /// To move to next stage.
+    /// </summary>
     public void MoveToNextStage()
     {
         currentStage++;
 
         if (currentStage % stageCountPerLevel == 0)
         {
-            MoveToNextLevel();
+            GameManager.Instance.LevelWon();
         }
         else
         {
@@ -56,21 +59,24 @@ public class LevelSystem : Singleton<LevelSystem>
         }
     }
 
-    private void MoveToNextLevel()
+    /// <summary>
+    /// To move to next level.
+    /// </summary>
+    public void MoveToNextLevel()
     {
         currentLevel++;
         currentStage = 0;
 
-        try
-        {
-            SceneManager.LoadScene(scenePrefix + currentLevel.ToString());
-        }
-        catch (Exception e)
-        {
-            Debug.LogError("Error caught while changing level with message = " + e.Message);
-        }
+        PointSystem.Instance.ResetPoints();
+
+        LoadCurrentLevel();
     }
 
+    /// <summary>
+    /// Things to do when a new scene is loaded.
+    /// </summary>
+    /// <param name="scene"></param>
+    /// <param name="mode"></param>
     private void On_SceneLoaded(Scene scene, LoadSceneMode mode)
     {
         if (scene.name == preloadString)    // If preload scene is loaded
@@ -86,18 +92,46 @@ public class LevelSystem : Singleton<LevelSystem>
         }
     }
 
+    /// <summary>
+    /// Load the current level.
+    /// </summary>
+    private void LoadCurrentLevel()
+    {
+        try
+        {
+            SceneManager.LoadScene(scenePrefix + currentLevel.ToString());
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("Error caught while changing level with message = " + e.Message);
+        }
+    }
+
+    /// <summary>
+    /// Returns current level number.
+    /// </summary>
+    /// <returns></returns>
     public int GetCurrentLevelNumber()
     {
         return currentLevel;
     }
 
+    /// <summary>
+    /// Returns current stage number.
+    /// </summary>
+    /// <returns></returns>
     public int GetCurrentStageNumber()
     {
         return currentStage;
     }
 
-    public void ResetStage()
+    /// <summary>
+    /// Restart the level.
+    /// </summary>
+    public void RestartLevel()
     {
         currentStage = 0;
+
+        LoadCurrentLevel();
     }
 }

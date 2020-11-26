@@ -17,9 +17,17 @@ public class PointsPerLevelSO : ScriptableObject
     [SerializeField]
     private List<StageData> stageDatas;
 
+    /// <summary>
+    /// Returns the points needed to pass the given level's stage.
+    /// </summary>
+    /// <param name="level"></param>
+    /// <param name="stage"></param>
+    /// <returns></returns>
     public int GetPointsNeeded(int level, int stage)
     {
         int pointNeeded = 0;
+
+        Debug.LogError("TRYING TO GET LEVEL " + level + " STAGE " + stage);
 
         try
         {

@@ -35,8 +35,6 @@ public class Passability : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.gameObject.name + "  entered with " + gameObject.name);
-
         if (LayerMask.LayerToName(other.gameObject.layer) == LayerNames.Hole)
         {
             if (!(badPiece && movingStages))
@@ -52,27 +50,29 @@ public class Passability : MonoBehaviour
             else
             {
                 PointSystem.Instance.AddPoints(pointToGive);
-
-                Debug.LogWarning("ADD POINTS, OBJECT " + gameObject.name + " IS CAUGHT!");
             }
 
             Destroy(gameObject);
         }
-
     }
 
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log(other.gameObject.name + "  exit from " + gameObject.name);
-
         if (LayerMask.LayerToName(other.gameObject.layer) == LayerNames.Hole)
             gameObject.layer = LayerMask.NameToLayer(LayerNames.Unpassable);
     }
 
+    /// <summary>
+    /// Things to do when moving stage action starts.
+    /// </summary>
     private void MovingStageStart()
     {
         movingStages = true;
     }
+
+    /// <summary>
+    /// Things to do when moving stage action ends.
+    /// </summary>
     private void MovingStageEnd()
     {
         movingStages = false;

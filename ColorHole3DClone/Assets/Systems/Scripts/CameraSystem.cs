@@ -21,6 +21,11 @@ public class CameraSystem : Singleton<CameraSystem>
         SceneManager.sceneLoaded -= GetMainCamera;
     }
 
+    /// <summary>
+    /// Get the main camera for further use per level.
+    /// </summary>
+    /// <param name="scene"></param>
+    /// <param name="loadMode"></param>
     private void GetMainCamera(Scene scene, LoadSceneMode loadMode)
     {
         try
@@ -38,13 +43,17 @@ public class CameraSystem : Singleton<CameraSystem>
         }
     }
 
+    /// <summary>
+    /// Moves camera to the next stage and returns a Tween.
+    /// </summary>
+    /// <param name="cameraMoveAnimDuration"></param>
+    /// <returns></returns>
     public Tween MoveCameraToNextStage(float cameraMoveAnimDuration)
     {
         // TODO: Move camera with DOTween after it is added to the project. And use its callbacks.
 
         Tween tw = null;
 
-        Debug.LogError(secondStagePos);
         if (currentCam && secondStagePos != null)
         {
             tw = currentCam.transform.DOMove(secondStagePos, cameraMoveAnimDuration);
@@ -53,6 +62,12 @@ public class CameraSystem : Singleton<CameraSystem>
         return tw;
     }
 
+    /// <summary>
+    /// Returns the world location where the mouse is pointing.
+    /// </summary>
+    /// <param name="pointForDistance"></param>
+    /// <param name="lockToGround"></param>
+    /// <returns></returns>
     public Vector3 GetMouseWorldLocation(Vector3 pointForDistance, bool lockToGround)
     {
         Ray ray = currentCam.ScreenPointToRay(Input.mousePosition);
@@ -65,6 +80,9 @@ public class CameraSystem : Singleton<CameraSystem>
         return loc;
     }
 
+    /// <summary>
+    /// To shake the camera.
+    /// </summary>
     public void ShakeCamera()
     {
         currentCam.DOShakePosition(camShakeDuration);
