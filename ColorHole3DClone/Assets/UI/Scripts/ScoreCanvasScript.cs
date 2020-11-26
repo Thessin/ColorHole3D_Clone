@@ -20,13 +20,13 @@ public class ScoreCanvasScript : MonoBehaviour
         SceneManager.sceneLoaded += SetInitial;
         PointSystem.Instance.OnPointsUpdate.AddListener(SetSliderValue);
         LevelSystem.Instance.OnMovingToNextStageStart.AddListener(ChangeCurrentSlider);
+        LevelSystem.Instance.OnMovingToNextStageEnd.AddListener(SetCurrentSliderMaxValue);
     }
 
     private void Start()
     {
-        firstStageSlider.maxValue = PointSystem.Instance.GetNeededPointsForStage();
-        Debug.LogError("SETTING MAX VAL => " + firstStageSlider.maxValue);
         currentSlider = firstStageSlider;
+        SetCurrentSliderMaxValue();
     }
 
     private void OnDisable()
@@ -34,8 +34,14 @@ public class ScoreCanvasScript : MonoBehaviour
         SceneManager.sceneLoaded -= SetInitial;
         PointSystem.Instance.OnPointsUpdate.RemoveListener(SetSliderValue);
         LevelSystem.Instance.OnMovingToNextStageStart.RemoveListener(ChangeCurrentSlider);
+        LevelSystem.Instance.OnMovingToNextStageEnd.RemoveListener(SetCurrentSliderMaxValue);
     }
 
+    /// <summary>
+    /// Set the things to be done when the level is initialised.
+    /// </summary>
+    /// <param name="scene"></param>
+    /// <param name="mode"></param>
     private void SetInitial(Scene scene, LoadSceneMode mode)
     {
         int currentLevel = 0;
@@ -46,12 +52,26 @@ public class ScoreCanvasScript : MonoBehaviour
         nextLevelText.text = (currentLevel + 1).ToString();
     }
 
+    /// <summary>
+    /// Change the currentSlider variable when moving from a stage ends.
+    /// </summary>
     private void ChangeCurrentSlider()
     {
-        secondStageSlider.maxValue = PointSystem.Instance.GetNeededPointsForStage();
         currentSlider = secondStageSlider;
     }
 
+    /// <summary>
+    /// Set the current slider's max value.
+    /// </summary>
+    private void SetCurrentSliderMaxValue()
+    {
+        currentSlider.maxValue = PointSystem.Instance.GetNeededPointsForStage();
+    }
+
+    /// <summary>
+    /// Set the currentSlider's value.
+    /// </summary>
+    /// <param name="currentPoints"></param>
     private void SetSliderValue(int currentPoints)
     {
         currentSlider.value = currentPoints;

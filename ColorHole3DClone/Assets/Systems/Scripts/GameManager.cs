@@ -68,6 +68,6 @@ public class GameManager : Singleton<GameManager>
         LevelSystem.Instance.RestartLevel();
         PointSystem.Instance.ResetPoints();
 
-        Debug.LogError("ON RESTART GAME");
+        Debug.LogWarning("ON RESTART GAME");
     }
 }

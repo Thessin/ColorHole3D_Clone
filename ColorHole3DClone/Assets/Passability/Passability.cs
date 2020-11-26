@@ -8,18 +8,7 @@ public class Passability : MonoBehaviour
 
     [SerializeField] private int pointToGive = 1;    // The points this object can give when caught in the catcher.
 
-    [SerializeField] private Color badColor;
-    [SerializeField] private Color goodColor;
-
     private bool movingStages = false;
-
-    private void Start()
-    {
-        if (badPiece)
-            GetComponent<MeshRenderer>().material.color = badColor;
-        else
-            GetComponent<MeshRenderer>().material.color = goodColor;
-    }
 
     private void OnEnable()
     {

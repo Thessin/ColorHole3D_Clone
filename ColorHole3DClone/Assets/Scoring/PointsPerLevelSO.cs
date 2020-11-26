@@ -27,7 +27,7 @@ public class PointsPerLevelSO : ScriptableObject
     {
         int pointNeeded = 0;
 
-        Debug.LogError("TRYING TO GET LEVEL " + level + " STAGE " + stage);
+        Debug.LogWarning("TRYING TO GET LEVEL " + level + " STAGE " + stage);
 
         try
         {

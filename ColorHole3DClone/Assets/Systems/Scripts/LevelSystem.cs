@@ -15,6 +15,7 @@ public class LevelSystem : Singleton<LevelSystem>
     private int currentStage = 0;
 
     private int stageCountPerLevel = 2;
+    private int maxLevel = 3;
 
     private float stageChangeDuration = 7.0f;
     private float holeToMiddleDuration = 1.5f;
@@ -65,6 +66,7 @@ public class LevelSystem : Singleton<LevelSystem>
     public void MoveToNextLevel()
     {
         currentLevel++;
+        currentLevel = currentLevel % maxLevel; // So that current level never goes over bounds.
         currentStage = 0;
 
         PointSystem.Instance.ResetPoints();
@@ -88,7 +90,7 @@ public class LevelSystem : Singleton<LevelSystem>
         }
         catch(Exception e)
         {
-            Debug.LogError("Error occured while trying to find HoleScript type with message = " + e.Message);
+            Debug.LogWarning("Error occured while trying to find HoleScript type with message = " + e.Message);
         }
     }
 
@@ -103,7 +105,7 @@ public class LevelSystem : Singleton<LevelSystem>
         }
         catch (Exception e)
         {
-            Debug.LogError("Error caught while changing level with message = " + e.Message);
+            Debug.LogWarning("Error caught while changing level with message = " + e.Message);
         }
     }
 

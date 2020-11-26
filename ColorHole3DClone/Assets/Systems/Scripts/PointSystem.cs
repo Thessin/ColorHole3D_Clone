@@ -36,8 +36,6 @@ public class PointSystem : Singleton<PointSystem>
         Points += pointToAdd;
         OnPointsUpdate?.Invoke(Points);
 
-        Debug.Log("PointSystem updated, new points = " + Points);
-
         if (Points >= pointsNeededCache)
         {
             LevelSystem.Instance.MoveToNextStage();
@@ -55,7 +53,7 @@ public class PointSystem : Singleton<PointSystem>
         {
             pointsNeededCache = scriptableObject.GetPointsNeeded(LevelSystem.Instance.GetCurrentLevelNumber(), LevelSystem.Instance.GetCurrentStageNumber());
 
-            Debug.LogError("RESET POINTS ON SET POINTS NEEDED pointsNeededCache= " + pointsNeededCache);
+            Debug.LogWarning("RESET POINTS ON SET POINTS NEEDED pointsNeededCache= " + pointsNeededCache);
         }
         catch (System.Exception e)
         {
@@ -72,7 +70,7 @@ public class PointSystem : Singleton<PointSystem>
 
         SetPointsNeededToPassStage();
 
-        Debug.LogError("RESET POINTS");
+        Debug.LogWarning("RESET POINTS");
     }
 
     public int GetNeededPointsForStage()
